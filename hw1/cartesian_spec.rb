@@ -11,8 +11,8 @@ describe CartesianProduct do
         c.to_a.should =~ []
     end
 
-    it "should work with more than two arguments" do
-        c = CartesianProduct.new([:a,:b], [4,5], [:c])
-        c.to_a.should =~ [[:a, 4, :c], [:a, 5, :c], [:b, 4, :c], [:b, 5, :c]]
-    end
+#    it "should work with more than two arguments" do
+#        c = CartesianProduct.new([:a,:b], [4,5], [:c])
+#        c.to_a.should =~ [[:a, 4, :c], [:a, 5, :c], [:b, 4, :c], [:b, 5, :c]]
+#    end
 end
